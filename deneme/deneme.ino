@@ -1,0 +1,55 @@
+
+void setup(){
+  pinMode(6, OUTPUT);
+}
+
+void loop()
+{
+
+  
+}
+
+
+/*int ledler[]={4,5,6,7};
+int led_sayisi = 4;
+int ldr_pini = A0;
+int deger = 0;
+
+void setup()
+{
+  for(int i = 0; i <led_sayisi;i++)
+  {
+    pinMode(ledler[0],OUTPUT);
+  }
+}
+
+void loop()
+{
+  deger = analogRead(ldr_pini);
+  if(deger >= 0 && deger <=255)
+  {
+    digitalWrite(ledler[0], HIGH);
+    digitalWrite(ledler[1],LOW);
+    digitalWrite(ledler[2], LOW);
+    digitalWrite(ledler[3], LOW);
+    
+  }
+
+  if(deger > 256 && deger <=511)
+  {
+    digitalWrite(ledler[0], HIGH);
+    digitalWrite(ledler[1], HIGH);
+    digitalWrite(ledler[2], LOW);
+    digitalWrite(ledler[3], LOW);
+  }
+
+  if(deger > 512 && deger<=767)
+  {
+    digitalWrite(ledler[0], HIGH);
+    digitalWrite(ledler[1], HIGH);
+    digitalWrite(ledler[2], HIGH);
+    digitalWrite(ledler[3], LOW);
+  }
+  delay(100);
+}*/
+
